@@ -30,10 +30,10 @@ ul{
     /* width: 600px; */
     align-items: center;
 }
-ul{
+.nav__item ul{
 display: flex;
 }
-ul>li{
+.nav__item ul>li{
     width: 100px;
     text-decoration: none;
 }
@@ -202,7 +202,8 @@ input,select{
     height: 40px;
 }
 .yes{
-    padding: 35px 0px;
+    margin: 0px auto;
+    padding: 35px 0px 0px 100px;
     height: 450px;
     width: 100%;
     background-color: #000000;
@@ -212,6 +213,7 @@ input,select{
 .footer__intem{
     
     display: flex;
+    
 }
 
 .h3{
@@ -220,4 +222,14 @@ input,select{
 
 .text__footer{
     width: 300px;
+}
+.footer__intem h3,p{
+    margin: 15px 30px 15px 0px;
+}
+
+.footer__ul li{
+margin: 7px;
+display: flex;
+align-items: center;
+gap: 7px;
 }
